@@ -16,7 +16,6 @@ return new class extends Migration
             $table->string('stream')->unique();
             $table->string('slug');
             $table->softDeletes();
-            $table->timestamps();
         });
     }
 
