@@ -27,7 +27,7 @@ class TutorPanelProvider extends PanelProvider
             ->path('tutor')
             ->login()
             ->colors([
-                'primary' => Color::Amber,
+                'primary' => Color::Emerald,
             ])
             ->discoverResources(in: app_path('Filament/Tutor/Resources'), for: 'App\\Filament\\Tutor\\Resources')
             ->discoverPages(in: app_path('Filament/Tutor/Pages'), for: 'App\\Filament\\Tutor\\Pages')
