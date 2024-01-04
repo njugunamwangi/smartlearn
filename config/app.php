@@ -170,6 +170,7 @@ return [
         App\Providers\Filament\AdminPanelProvider::class,
         App\Providers\Filament\TeacherPanelProvider::class,
         App\Providers\Filament\TutorPanelProvider::class,
+        App\Providers\Filament\SchoolPanelProvider::class,
         App\Providers\RouteServiceProvider::class,
         App\Providers\FortifyServiceProvider::class,
         App\Providers\JetstreamServiceProvider::class,
